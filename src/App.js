@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import ImageGrid from './components/ImageGrid';
 import UploadForm from './components/UploadForm';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className='App'>
       <Header />
       <UploadForm />
+      <ImageGrid />
     </div>
   );
 };
