@@ -10,6 +10,7 @@ body {
   font-family: 'Noto Serif';
   color: var(--secondary);
   background: #eee;
+  margin-bottom: 100px;
 }
 
 .App {
@@ -91,29 +92,21 @@ label span {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
-
 .img-wrap {
-  /* overflow: hidden; */
-  /* height: 0;
-  padding: 50% 0; */
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
-  opacity: 0.9;
+  opacity: 0.8;
 }
-
 .img-wrap img {
-  /* min-width: 100%;
+  min-width: 100%;
   min-height: 100%;
-  max-width: 150%; */
-  max-width: 250px;
-  min-width: 250px;
-  max-height: 300px;
-  min-height: 300px;
-  /* max-width: 150%; */
+  max-width: 150%;
   position: absolute;
   top: 0;
   left: 0;
-  margin: 0 auto;
 }
 
 .img-wrap img:hover {
